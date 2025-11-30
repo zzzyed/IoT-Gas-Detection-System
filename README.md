@@ -1,1 +1,47 @@
-# IoT-Gas-Detection-System
+/*
+ * ============================= Important Note / 重要提示 =============================
+ * 
+ * This system is currently in the early testing phase.
+ * Some functions of the MQ sensor have not been tested.
+ * Therefore, random simulated data generation is provided for this system.
+ * 
+ * 此系统目前处于早期测试阶段。
+ * MQ传感器部分功能未测试，为此系统提供了随机模拟数据生成。
+ * 
+ * ============================= System Design Description / 系统设计说明 =============================
+ * 
+ * This system is built with ESP32, buzzer, OLED (SSD1306), MQ2 sensor, 
+ * Blynk IoT platform, and peripheral hardware components.
+ * 此系统基于ESP32、蜂鸣器、OLED(SSD1306)、MQ2传感器、Blynk IoT平台及外围硬件组件构建。
+ * 
+ * Before use, please configure the following constants:
+ * 使用前请配置以下常量：
+ * 1. BLYNK_TEMPLATE_ID, BLYNK_TEMPLATE_NAME, BLYNK_AUTH_TOKEN
+ * 2. WiFi credentials
+ * 3. namespace HardwareConfig
+ * 
+ * ========================= Usage Instructions and Notes / 使用说明与注意事项 =========================
+ * 
+ * 1. SensorConfig namespace provides adjustable parameters for sensor configuration.
+ *    RL represents the load resistor - adjust relevant parameters as needed.
+ *    Note: Users must calibrate the sensor and update the RO variable in SensorConfig 
+ *    with the calibrated sensor internal resistance. To protect ESP32 from damage by 
+ *    limiting MQ sensor's maximum output voltage, a voltage divider circuit is defined 
+ *    in SensorConfig namespace - adjust parameters accordingly.
+ *    
+ *    SensorConfig命名空间提供传感器配置的可调参数。RL为负载电阻，请按需调整相关参数。
+ *    注意：用户须自行校准传感器，并将校准后的传感器内部电阻值填入SensorConfig中的RO变量。
+ *    为限制MQ传感器最高输出电压以保护ESP32，SensorConfig中定义了分压电路，请相应调整参数。
+ * 
+ * 2. TimingConfig and DisplayConfig namespaces provide additional configuration options.
+ *    Note: Due to potential performance limitations, some system animations may not 
+ *    achieve optimal speed.
+ *    
+ *    TimingConfig和DisplayConfig命名空间提供额外的配置选项。
+ *    注意：可能受性能限制或代码效率，系统的动画效果可能无法达到理想情况。
+ *    
+ * 3. Please modify the sensor data source in the Blynk callback function.
+ *    请在Blynk回调函数中修改传感器数据来源。
+ * 
+ * ====================================================================================================
+ */
