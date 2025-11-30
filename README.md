@@ -1,5 +1,5 @@
 /*
- * ============================= Important Note / 重要提示 =============================
+ * Important Note / 重要提示
  * 
  * This system is currently in the early testing phase.
  * Some functions of the MQ sensor have not been tested.
@@ -8,7 +8,7 @@
  * 此系统目前处于早期测试阶段。
  * MQ传感器部分功能未测试，为此系统提供了随机模拟数据生成。
  * 
- * ============================= System Design Description / 系统设计说明 =============================
+ * System Design Description / 系统设计说明
  * 
  * This system is built with ESP32, buzzer, OLED (SSD1306), MQ2 sensor, 
  * Blynk IoT platform, and peripheral hardware components.
@@ -20,7 +20,7 @@
  * 2. WiFi credentials
  * 3. namespace HardwareConfig
  * 
- * ========================= Usage Instructions and Notes / 使用说明与注意事项 =========================
+ * Usage Instructions and Notes / 使用说明与注意事项
  * 
  * 1. SensorConfig namespace provides adjustable parameters for sensor configuration.
  *    RL represents the load resistor - adjust relevant parameters as needed.
@@ -42,6 +42,4 @@
  *    
  * 3. Please modify the sensor data source in the Blynk callback function.
  *    请在Blynk回调函数中修改传感器数据来源。
- * 
- * ====================================================================================================
  */
