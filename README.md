@@ -30,3 +30,7 @@ Note: Due to potential performance limitations, some system animations may not
 achieve optimal speed.
   
 Please modify the sensor data source in the Blynk callback function`handlePeriodicUpdate()`.
+
+The value of Blynk's `V0` virtual port affects the chart display method; 0 for a bar chart and 1 for a line chart.
+
+The default upload port for sensor data is V2.
