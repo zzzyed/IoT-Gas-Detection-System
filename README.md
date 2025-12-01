@@ -29,4 +29,4 @@ in `SensorConfig` namespace - adjust parameters accordingly.
 Note: Due to potential performance limitations, some system animations may not 
 achieve optimal speed.
   
-Please modify the sensor data source in the Blynk callback function.
+Please modify the sensor data source in the Blynk callback function`handlePeriodicUpdate()`.
