@@ -6,6 +6,8 @@ The system is built using an ESP32 microcontroller, buzzer, OLED (SSD1306) senso
 
 ====================== Features and Functions ========================
 
+Smoke concentration measurement
+
 OLED concentration display with animation effects.
 
 Bar chart and line chart status switching.
@@ -16,8 +18,10 @@ Remote data monitoring and control.
 
 ======================= Future Plans =======================
 
-Add line chart animation effect (under consideration)
+Add line chart animation effect (in planning)
 
 Increase the number of bar charts displayed (in progress)
 
-Add more sensor support (under consideration)
+Add more sensor support (in planning)
+
+Add more measurement types: propane, methane, ethanol (in planning)
