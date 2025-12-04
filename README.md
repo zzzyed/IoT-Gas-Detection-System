@@ -6,7 +6,7 @@ The system is built using an ESP32 microcontroller, buzzer, OLED (SSD1306) senso
 
 ====================== Features and Functions ========================
 
-Smoke concentration measurement
+Gas concentration measurement
 
 OLED concentration display with animation effects.
 
