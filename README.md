@@ -22,6 +22,4 @@ Add line chart animation effect (in planning)
 
 Increase the number of bar charts displayed (in progress)
 
-Add more sensor support (in planning)
-
 Add more measurement types: propane, methane, ethanol (in planning)
