@@ -20,6 +20,6 @@ Remote data monitoring and control.
 
 Add line chart animation effect (in planning)
 
-Increase the number of bar charts displayed (in progress)
+Increase the number of bar charts displayed (finished)
 
 Add more measurement types: propane, methane, ethanol (in planning)
